@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
   <!-- Required meta tags -->
@@ -13,17 +13,48 @@
   <title>My Webpage</title>
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
   <header>
-    <h1>Home</h1>
-    <a href="index.html">Home</a>
-    <a href="page1.html">Page 1</a>
-    <a href="page2.html">Page 2</a>
-    <a href="page3.html">Page 3</a>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="page1.html">Page 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page2.html">Page 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page3.html">Page 3</a>
+          </li>
+        </ul>
+        <span class="navbar-brand">Webpage of Pedro Tonhozi de Oliveira</span>
+      </div>
+    </nav>
   </header>
-  Hello, world!
-  <footer>
-    2020 Copyright Pedro Tonhozi de Oliveira
+
+  <!-- Begin page content -->
+  <main role="main" class="flex-shrink-0">
+    <div class="container">
+      <h1 class="mt-5">Home</h1>
+      <figure class="figure">
+        <img src="img/me.jpg" class="figure-img img-fluid rounded" alt="I think it's a man smiling for the camera.">
+        <figcaption class="figure-caption">My AI software answer: <em>I think it's a man smiling for the camera.</em>
+        </figcaption>
+      </figure>
+    </div>
+  </main>
+
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+      <span class="text-muted">2020 Copyright Pedro Tonhozi de Oliveira.</span>
+    </div>
   </footer>
 </body>
 
