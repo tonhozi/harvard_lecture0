@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+  <link rel="stylesheet" href="style.css">
+
   <title>My Webpage</title>
 </head>
 
@@ -25,13 +27,13 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="page1.html">Page 1</a>
+            <a class="nav-link" href="page1.html">Favorites</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="page2.html">Page 2</a>
+            <a class="nav-link" href="page2.html">All Pubs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="page3.html">Page 3</a>
+            <a class="nav-link" href="page3.html">Contact</a>
           </li>
         </ul>
         <span class="navbar-brand">Webpage of Pedro Tonhozi de Oliveira</span>
@@ -43,11 +45,22 @@
   <main role="main" class="flex-shrink-0">
     <div class="container">
       <h1 class="mt-5">Home</h1>
-      <figure class="figure">
-        <img src="img/me.jpg" class="figure-img img-fluid rounded" alt="I think it's a man smiling for the camera.">
-        <figcaption class="figure-caption">My AI software answer: <em>I think it's a man smiling for the camera.</em>
-        </figcaption>
-      </figure>
+      <div class="row">
+        <figure class="figure col-6 col-md-4">
+          <img src="img/me.jpg" class="figure-img img-fluid rounded" alt="I think it's a man smiling for the camera.">
+          <figcaption class="figure-caption">I asked an AI for a description: <em>I think it's a man smiling for the
+              camera.</em>
+          </figcaption>
+        </figure>
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-body">
+              Hi, my name is Pedro Tonhozi de Oliveira. This is a website about my research and publications.
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
   </main>
 
