@@ -6,7 +6,31 @@ Web Programming with Python and JavaScript
 
 ### index.html
 
-File containing...
+File containing my bio using image, Bootstrap figure and card component, and @media query to be responsive.
+
+### page1.html
+
+File with an ordered and unordered list nested. I played around the #id in the styling (\#favorite-pub)
+
+### page2.html
+
+In this file I created a table using bootstrap component.
+
+### page3.html
+
+In this one I decided to be a little creative and do a contact form. It is just a fake form, but it was nice to be able to do it.
+
+### style.scss
+
+Stylesheet following requirements
+
+### style.css & style.css.map
+
+auto compiled stylesheet from scss
+
+### readme.md
+
+This document
 
 ## Assignment checklist
 
@@ -18,5 +42,5 @@ Alright, now it’s time to make your website your own. Design a personal webpag
 - [x] Your stylesheet(s) must use at least five different CSS properties, and at least five different types of CSS selectors. You must use the #id selector at least once, and the .class selector at least once.
 - [x] Your stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
 - [x] You must use Bootstrap 4 on your website, taking advantage of at least one Bootstrap component, and using at least two Bootstrap columns for layout purposes using Bootstrap’s grid model.
-- [] Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
-- [] In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
+- [x] Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
+- [x] In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
